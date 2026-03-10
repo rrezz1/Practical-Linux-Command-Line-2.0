@@ -56,13 +56,20 @@ Ushtrim:
 ## 8)
 
 **from root file system to home**(linux)
+
 forma 1
 
 > cd 
 
 forma 2
+
 >cd /
+
 >cd home/
+
 >cd ed/ (useri)
+
 >pwd
+
 >OutPut - > /home/ed
+
