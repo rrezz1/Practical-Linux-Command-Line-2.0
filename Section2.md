@@ -52,11 +52,14 @@ Ushtrim:
 **cd /**
 >kthen kejt fillim n linux, ska ma sen permas /.
 >cd e ke pas n home (osht child n /)
+
 ## 8)
 
 **from root file system to home**(linux)
 forma 1
+
 > cd 
+
 forma 2
 >cd /
 >cd home/
