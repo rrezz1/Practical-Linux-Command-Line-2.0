@@ -57,3 +57,35 @@
 
 ## 13)
 
+**wget linkText**
+>get something from the web
+
+**cat fileName.txt**(concatenate)
+>e print kejt file 
+
+**less fileName.txt**
+>munesh file me kqyr, up and down arrow to scroll 
+
+>for exit press Q
+
+
+**wc fileName.txt**
+>te dhena per file, ben return:
+>lines, words, size of file(amount/100 = value kb)
+
+## 14)
+**echo**
+*echo "hello world"*
+>ben print hello world ne terminal
+
+
+*echo "hello world" > fileName.txt*
+>e ben print tekstin ne file
+
+>nese ka tekst tjt e fshin veq hello world e len
+
+>mujna fileName.text me bo njo qa sekziston edhe e krijoj + e shkrun
+
+*echo "hello world" >> fileName.txt*
+>e ben print tekstin ne file, nuk i fshin t dhanat tjera veq i shton
+
