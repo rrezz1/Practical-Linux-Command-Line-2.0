@@ -26,6 +26,7 @@ Ushtrim:
 >cd ../../Desktop - > pra 2 her back , edhe cd Dekstop
 
 ## 6)
+
 **clear**
 >me i pastru kejt
 
@@ -37,3 +38,28 @@ Ushtrim:
 
 **cd folderName/ + Tab**
 >nese osht veq 1 folde , dmth ni opsion e bon fill me child qe o te folderName
+
+**Up Arrow**
+>line paraprak permas
+
+
+**Down Arrow**
+>line paraprak perpara
+
+
+## 7)
+
+**cd /**
+>kthen kejt fillim n linux, ska ma sen permas /.
+>cd e ke pas n home (osht child n /)
+## 8)
+
+**from root file system to home**(linux)
+forma 1
+> cd 
+forma 2
+>cd /
+>cd home/
+>cd ed/ (useri)
+>pwd
+>OutPut - > /home/ed
