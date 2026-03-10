@@ -1,5 +1,5 @@
 # Section 2
-5)
+## 5)
 **ls**(list)
 
 >tkallzon kejt folderat, filet qe i ki n qat path ku je,
@@ -25,7 +25,7 @@ Ushtrim:
 >jena te Documents/Test,dojna me shku te Desktop
 >cd ../../Desktop - > pra 2 her back , edhe cd Dekstop
 
-7)
+## 6)
 **clear**
 >me i pastru kejt
 
@@ -34,3 +34,6 @@ Ushtrim:
 
 **cd D + TAB + TAB**
 > kthen kejt Folderat qe i kena me shkronjen D 
+
+**cd folderName/ + Tab**
+>nese osht veq 1 folde , dmth ni opsion e bon fill me child qe o te folderName
