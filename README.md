@@ -31,5 +31,6 @@ Ushtrim:
 
 **cd m + TAB**
 >nese psh je kthy cd, edhe e shkru cd m. Kur e prek Tab t shfaqet path qe je kan heren e kalue
+
 **cd D + TAB + TAB**
 > kthen kejt Folderat qe i kena me shkronjen D 
