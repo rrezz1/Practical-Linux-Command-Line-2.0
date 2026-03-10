@@ -2,7 +2,7 @@
 ## 5)
 **ls**(list)
 
->tkallzon kejt folderat, filet qe i ki n qat path ku je,
+>tkallzon kejt directory, filet qe i ki n qat path ku je,
 
 **pwd**(print working directory)
 
