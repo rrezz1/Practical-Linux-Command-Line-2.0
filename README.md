@@ -1,8 +1,11 @@
 # Section 2
 5)
 ls (list)
+
 >tkallzon kejt folderat, filet qe i ki n qat path ku je,
+
 pwd (print working directory)
+
 >tregon sakt ku je , pra cilin path
 cd emriFolderit(change directory) 
 >cd NextFolder, perdoret per me move te ni folder child ne pathin qe je,   mun me bo direkt cd Desktop/Test
