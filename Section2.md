@@ -73,3 +73,25 @@ forma 2
 
 >OutPut - > /home/ed
 
+## 9)
+
+**absolute path**
+> cd /home/ed/Donwloads
+
+> t qon te qeky path 
+
+
+**cd ~ fileName**
+>~ short-cut per /home/ed/
+
+## 10)
+
+**ls -a**
+>i liston kejt folderat edhe files ne qat directory, including the hidden files
+
+>files qe shfaqen me . perpara jon hinned , nuk mun me i pa me ls 
+
+>hinned files nuk jan diqka ndyshe jan standart , jan hidden veq pse e kan .(qeshtu po thot 1:34)
+
+**cd .local**
+>qeshtu ju qasesh file qe osht hidded
