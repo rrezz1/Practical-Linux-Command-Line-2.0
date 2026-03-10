@@ -37,7 +37,7 @@ Ushtrim:
 > kthen kejt Folderat qe i kena me shkronjen D 
 
 **cd folderName/ + Tab**
->nese osht veq 1 folde , dmth ni opsion e bon fill me child qe o te folderName
+>nese osht veq 1 file , dmth ni opsion e bon fill me qatchild qe o te folderName
 
 **Up Arrow**
 >line paraprak permas
