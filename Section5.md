@@ -124,19 +124,22 @@ USHTRIM
 
 *others mujn veq me execute*
 
->chmod u+rwe scriptName.bash
+chmod u+rwe scriptName.bash
 
->chmod g+rwe scriptName.bash
+chmod g+rwe scriptName.bash
+
+chmod g-w scriptName.bash
+
+chmod o-rwe scriptName.bash
+
+chmod o+e scriptName.bash
 
 
 qetu mujna edhe
 
->read  4
 
->write 2
-
->execute 1
-
+>read  4, write 2, execute 1
+>
 >rwe 7
 
 >chmod 751 scriptName.bash
