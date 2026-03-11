@@ -65,9 +65,9 @@ dmth mndahen me gr edhe secili gr psh te **drwxr-xr-x** mun me:
 
 
 
-## 21)
+## 22)
 
-*Change a file's OWNER* (letsgooooooooo)
+*Change a file's OWNER* 
 
 kur krijojna file me sudo (jo user ton), owner o root, na mujna veq me read 
 
@@ -84,3 +84,49 @@ kur krijojna file me sudo (jo user ton), owner o root, na mujna veq me read
 
 > tash qeti file ju qasim pa sudo
 
+>AMOOOOOOO nuk mujna me delete se sjena onwer i dir veq i file, sooo we need sudo
+
+
+## 23)
+
+*Change a file's PERMISSIONS*
+
+drwxr-xr-x root root -> e para o Owner , e dyta o Grupi (spe di a kom shkru)
+
+### **chmod** (change mode)
+>me i modify permission
+
+
+### **chmod u+w sciptName.bash** (ose u-w) 
+>per me shtu ose me hek per userin n ket rast write 
+
+
+
+### **chmod g+w sciptName.bash** (ose g-w) 
+>e njejta veq kjo per grup
+
+
+### **chmod o+w sciptName.bash** (ose o-w) 
+>e njejta veq kjo per other
+
+### **chmod w sciptName.bash** (ose -w) 
+>e bon qet permission per kejt
+
+### **chmod ugo+w sciptName.bash** (ose ugo-w) 
+>per 2 psh 
+
+
+USHTRIM
+*User Ed munet me read, write, execute*
+*Grupi mun me read edhe execute*
+*others mujn veq me execute*
+
+>chmod u+rwe scriptName.bash
+
+>chmod g+rwe scriptName.bash
+
+>chmod g-w scriptName.bash
+
+>chmod o-rwe scriptName.bash
+
+>chmod o+e scriptName.bash
