@@ -60,7 +60,8 @@ per remove
 >ajo tjt e ka check kjo e bon direkt 
 
 per auto remove
-sudo apt autoremove | sudy yum autoremove | brew autoremove
+
+>sudo apt autoremove | sudy yum autoremove | brew autoremove
 
 ## 26)
 
