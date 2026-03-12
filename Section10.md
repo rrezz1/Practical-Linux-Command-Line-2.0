@@ -33,52 +33,52 @@ automation
 
 ### **qdo or**
 >  ```
-> 0 * * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> 0 * * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 ### **qdo 7:15**
 >  ```
-> 15 7 * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> 15 7 * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 ### **qdo minut n 6**
 >  ```
-> * 6 * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> * 6 * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 ### **me 21:13 qdo met 10 qdo muj**
 >  ```
-> 13 21 10 * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> 13 21 10 * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 
 ### **me 21:13 qdo met 10 , janar**
 >  ```
-> 13 21 10 1 * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> 13 21 10 1 * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 
 ### **me 21:13 qdo dille**
 >  ```
-> 13 21 * * 0 echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> 13 21 * * 0 echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 
 ### **me 21:10,21:20,21:30**
 >  ```
-> 10,20,30 21 * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> 10,20,30 21 * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 
 ### **me 21 every 10 minuts**
 >  ```
-> */10 * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> */10 * * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 
 ### **qdo 10 minuta prej 7 deri 9**
 >  ```
-> */10 8-9 * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt (path ku don me ru)
+> */10 8-9 * * echo "Hello" >> /c/Users/User/testLinuxComands/file.txt  
 >  ```
 
 ### **crontab -r**
@@ -88,3 +88,23 @@ automation
 >[https://crontab.guru/](https://crontab.guru/)
 
 ## 38)
+
+### **cd /lib/systemd/system**
+>shko per me shtu ni service
+>
+>e shtojna
+>
+>sudeo nano ensure-log-folder-exists.service
+>
+>  ```
+>  [Unit]
+>  Description=Create file log on boot
+>  After=multi-user.target
+>  
+>  [Service]
+>  ExecStart = mkdir /home/rrezz/logs
+>  User=rrezz
+>  
+>  [Install]
+>  WantedBy=multi-user.target
+> ```
